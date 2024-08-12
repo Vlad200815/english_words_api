@@ -1,11 +1,12 @@
-from typing import List
+
 from fastapi import FastAPI
+from mangum import Mangum
 from pydantic import BaseModel
 import json
 from fastapi.responses import JSONResponse
 
 app = FastAPI(title="Vlad'sCards")
-
+handler = Mangum(app)
 
 @app.get("/")
 def home():
@@ -20,9 +21,9 @@ def get_a1_words():
             print(words)
         return words
     except FileNotFoundError:
-        raise HTTPException(status_code=404, detail="Words file not found.")
+        print("File not found")
     except json.JSONDecodeError:
-        raise HTTPException(status_code=500, detail="Error decoding JSON file.")
+        print("JSONDecodeError")
 
 
 
