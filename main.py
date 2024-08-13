@@ -1,12 +1,11 @@
 
 from fastapi import FastAPI
-from mangum import Mangum
-from pydantic import BaseModel
+# from pydantic import BaseModel
 import json
-from fastapi.responses import JSONResponse
+# from fastapi.responses import JSONResponse
 
 app = FastAPI(title="Vlad'sCards")
-handler = Mangum(app)
+
 
 @app.get("/")
 def home():
