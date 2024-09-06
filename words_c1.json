@@ -1,10 +1,3085 @@
 {
-  "name": "api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "words": [
+    {
+      "english": "abandon",
+      "ukrainian": "покидати",
+      "example": "The project was abandoned due to a lack of funding."
   },
-  "private": true
+  {
+      "english": "acquisition",
+      "ukrainian": "придбання",
+      "example": "The company's acquisition of smaller firms increased its market share."
+  },
+  {
+      "english": "adaptation",
+      "ukrainian": "адаптація",
+      "example": "The adaptation of the novel into a film was well-received."
+  },
+  {
+      "english": "advocate",
+      "ukrainian": "захищати",
+      "example": "She advocates for environmental protection."
+  },
+  {
+      "english": "allegation",
+      "ukrainian": "звинувачення",
+      "example": "The allegations against the politician caused widespread controversy."
+  },
+  {
+      "english": "allocate",
+      "ukrainian": "виділяти",
+      "example": "The government allocated resources to improve public healthcare."
+  },
+  {
+      "english": "ambiguous",
+      "ukrainian": "неоднозначний",
+      "example": "His statement was ambiguous and left room for interpretation."
+  },
+  {
+      "english": "anticipate",
+      "ukrainian": "очікувати",
+      "example": "They anticipated a large crowd at the event."
+  },
+  {
+      "english": "articulate",
+      "ukrainian": "чітко висловлювати",
+      "example": "She is able to articulate her thoughts clearly and confidently."
+  },
+  {
+      "english": "assertion",
+      "ukrainian": "твердження",
+      "example": "His assertion that the data was incorrect surprised everyone."
+  },
+  {
+      "english": "assumption",
+      "ukrainian": "припущення",
+      "example": "Her assumption about the situation turned out to be wrong."
+  },
+  {
+      "english": "attain",
+      "ukrainian": "досягати",
+      "example": "She worked hard to attain her career goals."
+  },
+  {
+      "english": "authorize",
+      "ukrainian": "авторизувати",
+      "example": "The manager authorized the purchase of new equipment."
+  },
+  {
+      "english": "benchmark",
+      "ukrainian": "еталон",
+      "example": "This product sets the benchmark for quality in the industry."
+  },
+  {
+      "english": "bias",
+      "ukrainian": "упередження",
+      "example": "The article was criticized for its political bias."
+  },
+  {
+      "english": "burden",
+      "ukrainian": "тягар",
+      "example": "The financial burden on the family was significant."
+  },
+  {
+      "english": "cease",
+      "ukrainian": "припиняти",
+      "example": "The company decided to cease operations due to low demand."
+  },
+  {
+      "english": "coherent",
+      "ukrainian": "послідовний",
+      "example": "Her arguments were logical and coherent."
+  },
+  {
+      "english": "coincide",
+      "ukrainian": "збігатися",
+      "example": "The conference coincided with his vacation."
+  },
+  {
+      "english": "commodity",
+      "ukrainian": "товар",
+      "example": "Oil is one of the most traded commodities in the world."
+  },
+  {
+      "english": "compensate",
+      "ukrainian": "компенсувати",
+      "example": "The company compensated its employees for working overtime."
+  },
+  {
+      "english": "compliance",
+      "ukrainian": "дотримання",
+      "example": "The company was in full compliance with safety regulations."
+  },
+  {
+      "english": "compromise",
+      "ukrainian": "компроміс",
+      "example": "Both parties agreed to a compromise after long negotiations."
+  },
+  {
+      "english": "conceive",
+      "ukrainian": "задумувати",
+      "example": "She conceived a new plan for the business."
+  },
+  {
+      "english": "concurrent",
+      "ukrainian": "одночасний",
+      "example": "The two events were concurrent, making it hard to attend both."
+  },
+  {
+      "english": "confine",
+      "ukrainian": "обмежувати",
+      "example": "The illness confined him to his bed for weeks."
+  },
+  {
+      "english": "conform",
+      "ukrainian": "відповідати",
+      "example": "They had to conform to the new regulations."
+  },
+  {
+      "english": "consensus",
+      "ukrainian": "згода",
+      "example": "There was a consensus among the team members on how to proceed."
+  },
+  {
+      "english": "constrain",
+      "ukrainian": "стримувати",
+      "example": "The lack of funding constrained the project’s development."
+  },
+  {
+      "english": "contemplate",
+      "ukrainian": "обмірковувати",
+      "example": "She spent the evening contemplating her future career path."
+  },
+  {
+      "english": "contemporary",
+      "ukrainian": "сучасний",
+      "example": "The museum exhibits a mix of contemporary and classic art."
+  },
+  {
+      "english": "contradict",
+      "ukrainian": "суперечити",
+      "example": "His remarks contradicted his earlier statements."
+  },
+  {
+      "english": "convene",
+      "ukrainian": "скликати",
+      "example": "The board convened for an emergency meeting."
+  },
+  {
+      "english": "conversely",
+      "ukrainian": "навпаки",
+      "example": "He loves sports; conversely, his brother prefers reading."
+  },
+  {
+      "english": "conviction",
+      "ukrainian": "переконання",
+      "example": "She spoke with such conviction that everyone believed her."
+  },
+  {
+      "english": "cope",
+      "ukrainian": "справлятися",
+      "example": "He struggled to cope with the pressure at work."
+  },
+  {
+      "english": "correspond",
+      "ukrainian": "відповідати",
+      "example": "Her actions correspond to her values."
+  },
+  {
+      "english": "credible",
+      "ukrainian": "достовірний",
+      "example": "The scientist presented a credible explanation for the phenomenon."
+  },
+  {
+      "english": "critique",
+      "ukrainian": "критика",
+      "example": "The article provided a thorough critique of the government’s policy."
+  },
+  {
+      "english": "deduce",
+      "ukrainian": "робити висновок",
+      "example": "From the evidence, the detective deduced that the suspect was lying."
+  },
+  {
+      "english": "deficiency",
+      "ukrainian": "дефіцит",
+      "example": "The deficiency of resources slowed the project's progress."
+  },
+  {
+      "english": "deliberate",
+      "ukrainian": "навмисний",
+      "example": "His actions were deliberate and carefully planned."
+  },
+  {
+      "english": "deplete",
+      "ukrainian": "виснажувати",
+      "example": "The energy crisis depleted the country's fuel reserves."
+  },
+  {
+      "english": "derive",
+      "ukrainian": "отримувати",
+      "example": "She derives great satisfaction from her work."
+  },
+  {
+      "english": "deterrent",
+      "ukrainian": "засіб стримування",
+      "example": "Strict laws can act as a deterrent to crime."
+  },
+  {
+      "english": "devise",
+      "ukrainian": "розробляти",
+      "example": "They devised a plan to improve the company’s performance."
+  },
+  {
+      "english": "diminish",
+      "ukrainian": "зменшувати",
+      "example": "His influence in the company has diminished over the years."
+  },
+  {
+      "english": "displace",
+      "ukrainian": "змінювати",
+      "example": "The war displaced thousands of families."
+  },
+  {
+      "english": "disseminate",
+      "ukrainian": "поширювати",
+      "example": "The organization disseminates information about public health issues."
+  },
+  {
+      "english": "diverse",
+      "ukrainian": "різноманітний",
+      "example": "The school has a diverse student population."
+  },
+  {
+      "english": "domain",
+      "ukrainian": "сфера",
+      "example": "This topic falls outside the domain of the company’s expertise."
+  },
+  {
+      "english": "duration",
+      "ukrainian": "тривалість",
+      "example": "The duration of the meeting was two hours."
+  },
+  {
+    "english": "elaborate",
+    "ukrainian": "детально розроблений",
+    "example": "The artist's design was incredibly elaborate and detailed."
+},
+{
+    "english": "elicit",
+    "ukrainian": "викликати",
+    "example": "The teacher's question elicited a thoughtful response from the student."
+},
+{
+    "english": "emerge",
+    "ukrainian": "з'являтися",
+    "example": "New technologies continue to emerge in the marketplace."
+},
+{
+    "english": "emphasize",
+    "ukrainian": "підкреслювати",
+    "example": "She emphasized the importance of teamwork in her speech."
+},
+{
+    "english": "empirical",
+    "ukrainian": "емпіричний",
+    "example": "The theory was supported by empirical evidence."
+},
+{
+    "english": "endeavor",
+    "ukrainian": "зусилля",
+    "example": "Their scientific endeavors led to groundbreaking discoveries."
+},
+{
+    "english": "enhance",
+    "ukrainian": "покращувати",
+    "example": "The new software enhances the performance of the computer."
+},
+{
+    "english": "enquiry",
+    "ukrainian": "запит",
+    "example": "They made an enquiry about the status of their order."
+},
+{
+    "english": "entail",
+    "ukrainian": "тягти за собою",
+    "example": "The job entails long hours and frequent travel."
+},
+{
+    "english": "eradicate",
+    "ukrainian": "викорінювати",
+    "example": "The government aims to eradicate poverty within a decade."
+},
+{
+    "english": "essence",
+    "ukrainian": "сутність",
+    "example": "The essence of the problem lies in poor communication."
+},
+{
+    "english": "ethical",
+    "ukrainian": "етичний",
+    "example": "The company was praised for its ethical business practices."
+},
+{
+    "english": "evaluate",
+    "ukrainian": "оцінювати",
+    "example": "We need to evaluate the effectiveness of the new system."
+},
+{
+    "english": "exceed",
+    "ukrainian": "перевищувати",
+    "example": "The cost of the project exceeded initial estimates."
+},
+{
+    "english": "exclusive",
+    "ukrainian": "винятковий",
+    "example": "The restaurant offers exclusive dining experiences."
+},
+{
+    "english": "exploit",
+    "ukrainian": "використовувати",
+    "example": "They exploited the opportunity to gain a competitive edge."
+},
+{
+    "english": "exposure",
+    "ukrainian": "вплив",
+    "example": "Too much exposure to the sun can damage your skin."
+},
+{
+    "english": "facilitate",
+    "ukrainian": "сприяти",
+    "example": "The new system will facilitate the workflow in the office."
+},
+{
+    "english": "feasible",
+    "ukrainian": "здійсненний",
+    "example": "The company is exploring the feasibility of expanding its operations."
+},
+{
+    "english": "fluctuate",
+    "ukrainian": "коливатися",
+    "example": "The stock market fluctuates daily based on economic news."
+},
+{
+    "english": "foster",
+    "ukrainian": "сприяти",
+    "example": "The program aims to foster innovation in young scientists."
+},
+{
+    "english": "framework",
+    "ukrainian": "рамки",
+    "example": "The new policy provides a framework for decision-making."
+},
+{
+    "english": "fundamental",
+    "ukrainian": "фундаментальний",
+    "example": "Understanding these fundamental principles is key to solving the problem."
+},
+{
+    "english": "generate",
+    "ukrainian": "генерувати",
+    "example": "The wind turbines generate electricity for the entire town."
+},
+{
+    "english": "governance",
+    "ukrainian": "управління",
+    "example": "Good corporate governance is essential for building trust with investors."
+},
+{
+    "english": "hypothesis",
+    "ukrainian": "гіпотеза",
+    "example": "The scientist tested the hypothesis through a series of experiments."
+},
+{
+    "english": "ideology",
+    "ukrainian": "ідеологія",
+    "example": "Their political ideology was rooted in socialism."
+},
+{
+    "english": "impede",
+    "ukrainian": "перешкоджати",
+    "example": "The heavy traffic impeded their progress."
+},
+{
+    "english": "implement",
+    "ukrainian": "впроваджувати",
+    "example": "The company plans to implement the new system next year."
+},
+{
+    "english": "implicit",
+    "ukrainian": "неявний",
+    "example": "There was an implicit agreement between them that they would share the profits."
+},
+{
+    "english": "impose",
+    "ukrainian": "нав'язувати",
+    "example": "The government imposed new regulations on the industry."
+},
+{
+    "english": "incentive",
+    "ukrainian": "стимул",
+    "example": "The company offers financial incentives to employees who meet their targets."
+},
+{
+    "english": "incorporate",
+    "ukrainian": "включати",
+    "example": "The design incorporates elements from both modern and traditional architecture."
+},
+{
+    "english": "indicate",
+    "ukrainian": "вказувати",
+    "example": "The study indicates a strong correlation between the two variables."
+},
+{
+    "english": "inevitable",
+    "ukrainian": "неминучий",
+    "example": "Some level of risk is inevitable in any business venture."
+},
+{
+    "english": "infer",
+    "ukrainian": "робити висновок",
+    "example": "From his tone of voice, she inferred that he was angry."
+},
+{
+    "english": "infrastructure",
+    "ukrainian": "інфраструктура",
+    "example": "The government invested heavily in improving the country's infrastructure."
+},
+{
+    "english": "inhibit",
+    "ukrainian": "гальмувати",
+    "example": "Fear of failure can inhibit creativity and innovation."
+},
+{
+    "english": "initiative",
+    "ukrainian": "ініціатива",
+    "example": "The new initiative aims to reduce carbon emissions."
+},
+{
+    "english": "insight",
+    "ukrainian": "проникливість",
+    "example": "Her insights into human behavior were remarkable."
+},
+{
+    "english": "integrate",
+    "ukrainian": "інтегрувати",
+    "example": "The new technology will be integrated into the existing system."
+},
+{
+    "english": "integrity",
+    "ukrainian": "цілісність",
+    "example": "He is known for his integrity and honesty in business."
+},
+{
+    "english": "intensify",
+    "ukrainian": "посилювати",
+    "example": "The conflict has intensified in recent weeks."
+},
+{
+    "english": "intervene",
+    "ukrainian": "втручатися",
+    "example": "The government had to intervene to prevent the crisis from worsening."
+},
+{
+    "english": "invoke",
+    "ukrainian": "закликати",
+    "example": "The speaker invoked historical examples to support his argument."
+},
+{
+    "english": "legitimate",
+    "ukrainian": "законний",
+    "example": "The company has a legitimate claim to the intellectual property."
+},
+{
+    "english": "liaise",
+    "ukrainian": "співпрацювати",
+    "example": "We need to liaise with other departments to coordinate our efforts."
+},
+{
+    "english": "magnitude",
+    "ukrainian": "масштаб",
+    "example": "The magnitude of the earthquake was much greater than expected."
+},
+{
+    "english": "manifest",
+    "ukrainian": "виявляти",
+    "example": "His anger manifested itself in the way he spoke to others."
+},
+{
+    "english": "marginal",
+    "ukrainian": "незначний",
+    "example": "The changes had only a marginal impact on the overall outcome."
+},
+{
+    "english": "mitigate",
+    "ukrainian": "пом'якшувати",
+    "example": "The government took steps to mitigate the effects of the recession."
+},
+{
+  "english": "mobilize",
+  "ukrainian": "мобілізувати",
+  "example": "The organization mobilized volunteers to help in the relief efforts."
+},
+{
+  "english": "notion",
+  "ukrainian": "поняття",
+  "example": "He rejected the notion that technology alone could solve the problem."
+},
+{
+  "english": "oblige",
+  "ukrainian": "зобов'язувати",
+  "example": "The law obliges companies to provide a safe working environment."
+},
+{
+  "english": "obscure",
+  "ukrainian": "незрозумілий",
+  "example": "His reasons for leaving remain obscure."
+},
+{
+  "english": "offset",
+  "ukrainian": "компенсувати",
+  "example": "The gains from the new policy were offset by unexpected losses."
+},
+{
+  "english": "ongoing",
+  "ukrainian": "триваючий",
+  "example": "The ongoing project is expected to be completed by next year."
+},
+{
+  "english": "optimize",
+  "ukrainian": "оптимізувати",
+  "example": "The company is working to optimize its supply chain processes."
+},
+{
+  "english": "overlap",
+  "ukrainian": "перекриватися",
+  "example": "The responsibilities of the two departments sometimes overlap."
+},
+{
+  "english": "oversee",
+  "ukrainian": "контролювати",
+  "example": "The manager oversees all operations in the department."
+},
+{
+  "english": "paradigm",
+  "ukrainian": "парадигма",
+  "example": "The new technological advancements represent a shift in the paradigm of healthcare."
+},
+{
+  "english": "parameter",
+  "ukrainian": "параметр",
+  "example": "The researchers set specific parameters for the study."
+},
+{
+  "english": "perceive",
+  "ukrainian": "сприймати",
+  "example": "People often perceive risks differently depending on their experiences."
+},
+{
+  "english": "peripheral",
+  "ukrainian": "периферійний",
+  "example": "The issue is peripheral to the main concerns of the committee."
+},
+{
+  "english": "persist",
+  "ukrainian": "наполягати",
+  "example": "She persisted in her efforts to improve the company's efficiency."
+},
+{
+  "english": "perspective",
+  "ukrainian": "перспектива",
+  "example": "From a historical perspective, the events are not surprising."
+},
+{
+  "english": "plausible",
+  "ukrainian": "правдоподібний",
+  "example": "Her explanation seemed plausible at the time."
+},
+{
+  "english": "pose",
+  "ukrainian": "створювати",
+  "example": "The new policy poses significant challenges to small businesses."
+},
+{
+  "english": "precedent",
+  "ukrainian": "прецедент",
+  "example": "The case set an important legal precedent for future rulings."
+},
+{
+  "english": "predominant",
+  "ukrainian": "переважний",
+  "example": "English is the predominant language in international business."
+},
+{
+  "english": "preliminary",
+  "ukrainian": "попередній",
+  "example": "The preliminary results of the study are promising."
+},
+{
+  "english": "presume",
+  "ukrainian": "припускати",
+  "example": "I presume you're coming to the meeting tomorrow."
+},
+{
+  "english": "prevail",
+  "ukrainian": "переважати",
+  "example": "Common sense prevailed in the end, and the proposal was accepted."
+},
+{
+  "english": "profound",
+  "ukrainian": "глибокий",
+  "example": "His speech had a profound impact on everyone in the audience."
+},
+{
+  "english": "prohibit",
+  "ukrainian": "забороняти",
+  "example": "The school prohibits the use of cell phones during class."
+},
+{
+  "english": "prolific",
+  "ukrainian": "плідний",
+  "example": "She is a prolific writer, having published over twenty books."
+},
+{
+  "english": "proportion",
+  "ukrainian": "пропорція",
+  "example": "A large proportion of the population is under 30."
+},
+{
+  "english": "prospect",
+  "ukrainian": "перспектива",
+  "example": "The prospect of a new job is exciting for her."
+},
+{
+  "english": "protocol",
+  "ukrainian": "протокол",
+  "example": "The research team followed strict protocols to ensure accuracy."
+},
+{
+  "english": "provoke",
+  "ukrainian": "провокувати",
+  "example": "The president's comments provoked a strong reaction from the public."
+},
+{
+  "english": "pursue",
+  "ukrainian": "переслідувати",
+  "example": "She decided to pursue a career in law."
+},
+{
+  "english": "qualitative",
+  "ukrainian": "якісний",
+  "example": "The research included both quantitative and qualitative data."
+},
+{
+  "english": "quantify",
+  "ukrainian": "кількісно оцінювати",
+  "example": "It's difficult to quantify the exact impact of the new law."
+},
+{
+  "english": "radical",
+  "ukrainian": "радикальний",
+  "example": "The company made radical changes to its organizational structure."
+},
+{
+  "english": "random",
+  "ukrainian": "випадковий",
+  "example": "They selected the participants through a random lottery system."
+},
+{
+  "english": "ratio",
+  "ukrainian": "співвідношення",
+  "example": "The ratio of students to teachers in the class is 15:1."
+},
+{
+  "english": "rationale",
+  "ukrainian": "логічне обґрунтування",
+  "example": "The rationale behind the decision was explained in detail."
+},
+{
+  "english": "recession",
+  "ukrainian": "рецесія",
+  "example": "The country is slowly recovering from a deep recession."
+},
+{
+  "english": "reciprocal",
+  "ukrainian": "взаємний",
+  "example": "The two countries have a reciprocal trade agreement."
+},
+{
+  "english": "refine",
+  "ukrainian": "удосконалювати",
+  "example": "We need to refine the process to make it more efficient."
+},
+{
+  "english": "reinforce",
+  "ukrainian": "підсилювати",
+  "example": "The findings reinforce the importance of early education."
+},
+{
+  "english": "reiterate",
+  "ukrainian": "повторювати",
+  "example": "He reiterated his support for the new policy."
+},
+{
+  "english": "reliable",
+  "ukrainian": "надійний",
+  "example": "She is a reliable employee who always meets deadlines."
+},
+{
+  "english": "reluctant",
+  "ukrainian": "неохочий",
+  "example": "He was reluctant to accept the new responsibilities."
+},
+{
+  "english": "remedy",
+  "ukrainian": "виправлення",
+  "example": "The government is working on a remedy for the housing crisis."
+},
+{
+  "english": "reside",
+  "ukrainian": "проживати",
+  "example": "The family currently resides in the suburbs."
+},
+{
+  "english": "resilience",
+  "ukrainian": "стійкість",
+  "example": "The community showed remarkable resilience in the face of disaster."
+},
+{
+  "english": "restrain",
+  "ukrainian": "стримувати",
+  "example": "The police had to restrain the crowd during the protest."
+},
+{
+  "english": "retain",
+  "ukrainian": "зберігати",
+  "example": "The company is working hard to retain its employees."
+},
+{
+  "english": "retrieve",
+  "ukrainian": "повертати",
+  "example": "He was able to retrieve the lost data from the server."
+},
+{
+  "english": "rigid",
+  "ukrainian": "жорсткий",
+  "example": "The company has a rigid policy on workplace behavior."
+},
+{
+  "english": "bring about",
+  "meaning": "to cause or produce",
+  "example": "The new policy brought about significant changes in the organization."
+},
+{
+  "english": "come across",
+  "meaning": "to find or encounter unexpectedly",
+  "example": "I came across an interesting article while browsing the internet."
+},
+{
+  "english": "cut down on",
+  "meaning": "to reduce or decrease",
+  "example": "She needs to cut down on her sugar intake."
+},
+{
+  "english": "fall behind",
+  "meaning": "to lag or fail to keep up",
+  "example": "He fell behind in his studies due to illness."
+},
+{
+  "english": "figure out",
+  "meaning": "to solve or understand",
+  "example": "We need to figure out how to improve our sales strategy."
+},
+{
+  "english": "give in",
+  "meaning": "to yield or surrender",
+  "example": "She finally gave in to his demands after much persuasion."
+},
+{
+  "english": "hold on",
+  "meaning": "to wait or grasp",
+  "example": "Hold on a moment while I check the information."
+},
+{
+  "english": "look into",
+  "meaning": "to investigate or examine",
+  "example": "The company will look into the issue and provide a solution."
+},
+{
+  "english": "make up",
+  "meaning": "to invent or reconcile",
+  "example": "She made up an excuse for being late. They managed to make up after their argument."
+},
+{
+  "english": "put off",
+  "meaning": "to delay or postpone",
+  "example": "They decided to put off the meeting until next week."
+},
+{
+  "english": "run into",
+  "meaning": "to encounter unexpectedly",
+  "example": "I ran into an old friend at the bookstore."
+},
+{
+  "english": "set up",
+  "meaning": "to establish or arrange",
+  "example": "They set up a new department to handle customer service."
+},
+{
+  "english": "take over",
+  "meaning": "to assume control or responsibility",
+  "example": "She will take over the project starting next week."
+},
+{
+  "english": "turn down",
+  "meaning": "to refuse or lower",
+  "example": "He turned down the job offer. The thermostat was turned down to save energy."
+},
+{
+  "english": "work out",
+  "meaning": "to exercise or resolve",
+  "example": "They worked out at the gym together. We need to work out the details of the agreement."
+},
+{
+  "english": "break down",
+  "meaning": "to stop functioning or to analyze",
+  "example": "The car broke down on the way to the beach. We also need to break down the data to understand the results."
+},
+{
+  "english": "bring back",
+  "meaning": "to return or recall",
+  "example": "The old photographs bring back so many memories."
+},
+{
+  "english": "carry on",
+  "meaning": "to continue",
+  "example": "Despite the challenges, she decided to carry on with her studies."
+},
+{
+  "english": "come up with",
+  "meaning": "to think of or create",
+  "example": "He came up with a brilliant idea for the marketing campaign."
+},
+{
+  "english": "cut out",
+  "meaning": "to remove or eliminate",
+  "example": "She cut out all the unnecessary expenses from her budget."
+},
+{
+  "english": "find out",
+  "meaning": "to discover or learn",
+  "example": "She found out that her flight was delayed."
+},
+{
+  "english": "give off",
+  "meaning": "to emit or release",
+  "example": "The flowers give off a pleasant fragrance."
+},
+{
+  "english": "go along with",
+  "meaning": "to agree or comply",
+  "example": "She decided to go along with the proposed changes."
+},
+{
+  "english": "hold up",
+  "meaning": "to delay or support",
+  "example": "The traffic jam held up the delivery."
+},
+{
+  "english": "keep up with",
+  "meaning": "to stay informed or match",
+  "example": "She struggled to keep up with the fast-paced class."
+},
+{
+  "english": "let out",
+  "meaning": "to release or make public",
+  "example": "The company let out a statement regarding the new policy."
+},
+{
+  "english": "make out",
+  "meaning": "to discern or understand",
+  "example": "It was hard to make out the words on the sign."
+},
+{
+  "english": "pass on",
+  "meaning": "to transmit or decline",
+  "example": "Please pass on my message to him. She decided to pass on the offer."
+},
+{
+  "english": "put up with",
+  "meaning": "to tolerate or endure",
+  "example": "I can’t put up with his constant complaints anymore."
+},
+{
+  "english": "run out of",
+  "meaning": "to deplete or exhaust",
+  "example": "We've run out of milk. We need to buy more."
+},
+{
+  "english": "set out",
+  "meaning": "to begin or start",
+  "example": "They set out to explore the city early in the morning."
+},
+{
+  "english": "take after",
+  "meaning": "to resemble",
+  "example": "She really takes after her mother in her personality."
+},
+{
+  "english": "turn down",
+  "meaning": "to refuse or lower",
+  "example": "He turned down the job offer. The thermostat was turned down to save energy."
+},
+{
+  "english": "work out",
+  "meaning": "to exercise or solve",
+  "example": "They worked out at the gym together. We need to work out the details of the agreement."
+},
+{
+  "english": "back down",
+  "meaning": "to withdraw or concede",
+  "example": "He refused to back down from his position."
+},
+{
+  "english": "break into",
+  "meaning": "to enter forcibly or begin",
+  "example": "Thieves broke into the store last night. She broke into the industry with her first novel."
+},
+{
+  "english": "come along",
+  "meaning": "to progress or accompany",
+  "example": "The project is coming along well. She invited him to come along on the trip."
+},
+{
+  "english": "cut back",
+  "meaning": "to reduce or decrease",
+  "example": "They need to cut back on expenses to save money."
+},
+{
+  "english": "give in",
+  "meaning": "to yield or surrender",
+  "example": "He finally gave in to her demands after much persuasion."
+},
+{
+  "english": "go over",
+  "meaning": "to review or examine",
+  "example": "Let's go over the details before finalizing the plan."
+},
+{
+  "english": "keep out",
+  "meaning": "to prevent entry",
+  "example": "The sign says 'Keep Out' to prevent unauthorized access."
+},
+{
+  "english": "let in",
+  "meaning": "to allow entry",
+  "example": "He let her in when she knocked on the door."
+},
+{
+  "english": "make up for",
+  "meaning": "to compensate for",
+  "example": "The company gave him a bonus to make up for the long hours."
+},
+{
+  "english": "pass away",
+  "meaning": "to die",
+  "example": "His grandfather passed away last year."
+},
+{
+  "english": "put up with",
+  "meaning": "to tolerate",
+  "example": "She can’t put up with his constant interruptions."
+},
+{
+  "english": "run out",
+  "meaning": "to deplete",
+  "example": "We've run out of milk. We need to buy more."
+},
+{
+  "english": "set up",
+  "meaning": "to establish or organize",
+  "example": "She set up the meeting for next week."
+},
+{
+  "english": "take over",
+  "meaning": "to assume control",
+  "example": "He will take over the project after she leaves."
+},
+{
+  "english": "turn up",
+  "meaning": "to increase or appear",
+  "example": "The volume was turned up to maximum. She turned up at the party unexpectedly."
+},
+{
+  "english": "work out",
+  "meaning": "to resolve or exercise",
+  "example": "We need to work out the details. He works out at the gym daily."
+},
+{
+  "english": "break down",
+  "meaning": "to analyze or stop functioning",
+  "example": "Let's break down the data. The machine broke down yesterday."
+},
+{
+  "english": "add up",
+  "meaning": "to make sense or accumulate",
+  "example": "The numbers just don't add up in this report."
+},
+{
+  "english": "bring up",
+  "meaning": "to mention or raise",
+  "example": "She brought up the issue during the meeting."
+},
+{
+  "english": "carry out",
+  "meaning": "to execute or perform",
+  "example": "They carried out a detailed investigation."
+},
+{
+  "english": "come down with",
+  "meaning": "to become ill",
+  "example": "He came down with the flu last week."
+},
+{
+  "english": "give up",
+  "meaning": "to quit or surrender",
+  "example": "She decided to give up smoking."
+},
+{
+  "english": "keep up",
+  "meaning": "to maintain or continue",
+  "example": "He struggled to keep up with the fast pace of the course."
+},
+{
+  "english": "let down",
+  "meaning": "to disappoint",
+  "example": "I felt like I had let down my team."
+},
+{
+  "english": "make out",
+  "meaning": "to discern or understand",
+  "example": "I can barely make out the text on this document."
+},
+{
+  "english": "pass out",
+  "meaning": "to lose consciousness or distribute",
+  "example": "She passed out from exhaustion. They passed out the flyers at the event."
+},
+{
+  "english": "put forward",
+  "meaning": "to propose or suggest",
+  "example": "He put forward a new idea for the project."
+},
+{
+  "english": "run across",
+  "meaning": "to encounter unexpectedly",
+  "example": "I ran across an old friend at the conference."
+},
+{
+  "english": "set aside",
+  "meaning": "to reserve or save",
+  "example": "She set aside some time for relaxation each week."
+},
+{
+  "english": "take back",
+  "meaning": "to retract or recover",
+  "example": "He took back his previous statement. She took back the book she lent him."
+},
+{
+  "english": "turn around",
+  "meaning": "to reverse direction or improve",
+  "example": "The company managed to turn around its financial situation."
+},
+{
+  "english": "work through",
+  "meaning": "to resolve or process",
+  "example": "They need to work through their differences."
+},
+{
+  "english": "break up",
+  "meaning": "to end a relationship or disperse",
+  "example": "They decided to break up after several years together. The crowd began to break up after the event."
+},
+{
+  "english": "come by",
+  "meaning": "to obtain or visit",
+  "example": "How did you come by that information? He came by the office to say hello."
+},
+{
+  "english": "cut off",
+  "meaning": "to interrupt or stop",
+  "example": "The phone call was cut off. They had to cut off the water supply."
+},
+{
+  "english": "give away",
+  "meaning": "to donate or reveal",
+  "example": "She gave away her old clothes. The surprise was given away by mistake."
+},
+{
+  "english": "keep from",
+  "meaning": "to prevent or restrain",
+  "example": "He tried to keep from laughing during the serious meeting."
+},
+{
+  "english": "let in",
+  "meaning": "to allow entry",
+  "example": "He let in the visitors after checking their IDs."
+},
+{
+  "english": "make up",
+  "meaning": "to invent or reconcile",
+  "example": "She made up a story to explain her lateness. They made up after their argument."
+},
+{
+  "english": "put off",
+  "meaning": "to delay or postpone",
+  "example": "The meeting was put off until next week."
+},
+{
+  "english": "run into",
+  "meaning": "to meet unexpectedly",
+  "example": "I ran into my old professor at the grocery store."
+},
+{
+  "english": "set up",
+  "meaning": "to establish or arrange",
+  "example": "She set up a meeting for the next day."
+},
+{
+  "english": "take up",
+  "meaning": "to begin a new activity or occupy space",
+  "example": "He took up painting as a hobby. The new sofa takes up a lot of space."
+},
+{
+  "english": "turn down",
+  "meaning": "to refuse or lower",
+  "example": "He turned down the job offer. The volume was turned down."
+},
+{
+  "english": "work out",
+  "meaning": "to exercise or solve",
+  "example": "She works out at the gym every morning. We need to work out the details of the contract."
+},
+{
+  "english": "back up",
+  "meaning": "to support or make a copy",
+  "example": "They backed up their data regularly. She had to back up her claims with evidence."
+},
+{
+  "english": "break down",
+  "meaning": "to analyze or stop functioning",
+  "example": "We need to break down the problem into smaller parts. The car broke down on the way."
+},
+{
+  "english": "come up with",
+  "meaning": "to create or think of",
+  "example": "He came up with a new marketing strategy."
+},
+{
+  "english": "cut out",
+  "meaning": "to eliminate or remove",
+  "example": "She cut out all processed foods from her diet."
+},
+{
+  "english": "find out",
+  "meaning": "to discover or learn",
+  "example": "She found out about the surprise party from her friend."
+},
+{
+  "english": "give up",
+  "meaning": "to quit or surrender",
+  "example": "He gave up smoking last year."
+},
+{
+  "english": "go over",
+  "meaning": "to review or examine",
+  "example": "Let's go over the results of the survey."
+},
+{
+  "english": "keep up with",
+  "meaning": "to stay informed or match",
+  "example": "He struggled to keep up with the latest technology."
+},
+{
+  "english": "let down",
+  "meaning": "to disappoint",
+  "example": "I felt let down by his lack of support."
+},
+{
+  "english": "make out",
+  "meaning": "to discern or understand",
+  "example": "I can’t make out what’s written on the sign."
+},
+{
+  "english": "pass on",
+  "meaning": "to transmit or decline",
+  "example": "Please pass on my message to her. He decided to pass on the opportunity."
+},
+{
+  "english": "put up with",
+  "meaning": "to tolerate or endure",
+  "example": "She can’t put up with the noise any longer."
+},
+{
+  "english": "run out of",
+  "meaning": "to deplete or exhaust",
+  "example": "We’ve run out of coffee."
+},
+{
+  "english": "set up",
+  "meaning": "to establish or arrange",
+  "example": "They set up a new office downtown."
+},
+{
+  "english": "take after",
+  "meaning": "to resemble or inherit traits",
+  "example": "She takes after her mother in her love for cooking."
+},
+{
+  "english": "turn up",
+  "meaning": "to increase or arrive",
+  "example": "The volume was turned up. He turned up at the party unexpectedly."
+},
+{
+  "english": "work out",
+  "meaning": "to exercise or solve",
+  "example": "He works out at the gym every day. We need to work out the kinks in the system."
+},
+{
+  "english": "ask out",
+  "meaning": "to invite someone on a date",
+  "example": "He asked her out to dinner."
+},
+{
+  "english": "become of",
+  "meaning": "to happen to",
+  "example": "What has become of our old friends?"
+},
+{
+  "english": "blow up",
+  "meaning": "to explode or enlarge",
+  "example": "The balloon blew up quickly. The issue was blown up out of proportion."
+},
+{
+  "english": "bring down",
+  "meaning": "to lower or reduce",
+  "example": "The new policy will bring down costs."
+},
+{
+  "english": "carry on with",
+  "meaning": "to continue",
+  "example": "She carried on with her work despite the distractions."
+},
+{
+  "english": "come across as",
+  "meaning": "to seem or appear",
+  "example": "He comes across as a very confident person."
+},
+{
+  "english": "cut down",
+  "meaning": "to reduce in size or amount",
+  "example": "We need to cut down on expenses."
+},
+{
+  "english": "deal with",
+  "meaning": "to handle or manage",
+  "example": "She will deal with the customer complaints."
+},
+{
+  "english": "do away with",
+  "meaning": "to eliminate or abolish",
+  "example": "The company decided to do away with outdated procedures."
+},
+{
+  "english": "drop off",
+  "meaning": "to deliver or fall",
+  "example": "He dropped off the package at the office. She dropped off to sleep."
+},
+{
+  "english": "figure out",
+  "meaning": "to solve or understand",
+  "example": "We need to figure out how to fix this issue."
+},
+{
+  "english": "give away",
+  "meaning": "to donate or reveal",
+  "example": "They gave away the old furniture. Her expression gave away her feelings."
+},
+{
+  "english": "go through",
+  "meaning": "to experience or examine",
+  "example": "She went through a tough time last year. We need to go through these documents."
+},
+{
+  "english": "hold back",
+  "meaning": "to restrain or prevent",
+  "example": "He held back his tears during the movie."
+},
+{
+  "english": "keep away from",
+  "meaning": "to stay at a distance",
+  "example": "Keep away from the edge of the cliff."
+},
+{
+  "english": "lay off",
+  "meaning": "to terminate employment",
+  "example": "The company had to lay off several employees."
+},
+{
+  "english": "look after",
+  "meaning": "to care for",
+  "example": "She looks after her younger siblings."
+},
+{
+  "english": "make up for",
+  "meaning": "to compensate for",
+  "example": "The bonus will make up for the long hours worked."
+},
+{
+  "english": "move on",
+  "meaning": "to progress or change",
+  "example": "It's time to move on from this issue."
+},
+{
+  "english": "pass up",
+  "meaning": "to decline or miss an opportunity",
+  "example": "She decided to pass up the job offer."
+},
+{
+  "english": "put aside",
+  "meaning": "to save or reserve",
+  "example": "He put aside some money for emergencies."
+},
+{
+  "english": "run over",
+  "meaning": "to exceed or hit",
+  "example": "The meeting ran over time. He accidentally ran over a squirrel with his car."
+},
+{
+  "english": "set forth",
+  "meaning": "to present or explain",
+  "example": "The scientist set forth a new theory in the paper."
+},
+{
+  "english": "take in",
+  "meaning": "to absorb or understand",
+  "example": "It took a while to take in the information."
+},
+{
+  "english": "turn over",
+  "meaning": "to flip or change",
+  "example": "Turn over the page to see the next chapter."
+},
+{
+  "english": "work on",
+  "meaning": "to improve or develop",
+  "example": "She is working on her presentation."
+},
+{
+  "english": "blow over",
+  "meaning": "to pass or subside",
+  "example": "The storm will blow over soon."
+},
+{
+  "english": "bring around",
+  "meaning": "to influence or persuade",
+  "example": "She managed to bring him around to her point of view."
+},
+{
+  "english": "come out",
+  "meaning": "to emerge or be published",
+  "example": "The truth will come out eventually. The new book comes out next month."
+},
+{
+  "english": "cut off",
+  "meaning": "to interrupt or stop",
+  "example": "He cut off the discussion abruptly."
+},
+{
+  "english": "find out",
+  "meaning": "to discover or learn",
+  "example": "I need to find out more details about the project."
+},
+{
+  "english": "give up",
+  "meaning": "to quit or surrender",
+  "example": "He gave up on the idea after several failures."
+},
+{
+  "english": "go on",
+  "meaning": "to continue",
+  "example": "The show must go on despite the setbacks."
+},
+{
+  "english": "keep up",
+  "meaning": "to maintain or continue",
+  "example": "She struggles to keep up with the latest trends."
+},
+{
+  "english": "let out",
+  "meaning": "to release or make public",
+  "example": "He let out a sigh of relief after the exam."
+},
+{
+  "english": "make up",
+  "meaning": "to invent or reconcile",
+  "example": "They made up a story to entertain the children."
+},
+{
+  "english": "pass on",
+  "meaning": "to transmit or decline",
+  "example": "She passed on the information to her team."
+},
+{
+  "english": "put up with",
+  "meaning": "to tolerate or endure",
+  "example": "He put up with her constant complaining."
+},
+{
+  "english": "run out of",
+  "meaning": "to deplete or exhaust",
+  "example": "They ran out of milk this morning."
+},
+{
+  "english": "set up",
+  "meaning": "to establish or organize",
+  "example": "They set up a new department."
+},
+{
+  "english": "take after",
+  "meaning": "to resemble",
+  "example": "She takes after her father in her sense of humor."
+},
+{
+  "english": "turn up",
+  "meaning": "to increase or arrive",
+  "example": "The music was turned up too loud. She turned up at the meeting late."
+},
+{
+  "english": "work out",
+  "meaning": "to exercise or solve",
+  "example": "He works out every day. We need to work out the problems in the plan."
+},
+{
+  "english": "back out",
+  "meaning": "to withdraw or retreat",
+  "example": "He decided to back out of the agreement."
+},
+{
+  "english": "bring around",
+  "meaning": "to influence or persuade",
+  "example": "He managed to bring her around to his way of thinking."
+},
+{
+  "english": "come across",
+  "meaning": "to find or encounter unexpectedly",
+  "example": "I came across an interesting book in the library."
+},
+{
+  "english": "cut down on",
+  "meaning": "to reduce",
+  "example": "She is trying to cut down on sugar."
+},
+{
+  "english": "deal with",
+  "meaning": "to handle or manage",
+  "example": "We need to deal with these issues before the meeting."
+},
+{
+  "english": "give in",
+  "meaning": "to surrender or yield",
+  "example": "After much negotiation, she gave in to his demands."
+},
+{
+  "english": "go through",
+  "meaning": "to experience or examine",
+  "example": "She had to go through a lot of paperwork for the visa."
+},
+{
+  "english": "keep away",
+  "meaning": "to stay at a distance",
+  "example": "Keep away from the edge of the cliff."
+},
+{
+  "english": "let down",
+  "meaning": "to disappoint",
+  "example": "He felt let down by the lack of support."
+},
+{
+  "english": "make out",
+  "meaning": "to discern or understand",
+  "example": "I could barely make out the sign from a distance."
+},
+{
+  "english": "pass away",
+  "meaning": "to die",
+  "example": "His grandfather passed away last year."
+},
+{
+  "english": "put forward",
+  "meaning": "to propose or suggest",
+  "example": "He put forward a new plan for the project."
+},
+{
+  "english": "turn around",
+  "meaning": "to reverse direction or improve",
+  "example": "The company managed to turn around its financial situation."
+},
+{
+  "english": "wind down",
+  "meaning": "to relax or reduce",
+  "example": "She likes to wind down with a good book after work."
+},
+{
+  "english": "bring about",
+  "meaning": "to cause to happen",
+  "example": "The new policies brought about significant changes in the company."
+},
+{
+  "english": "come up with",
+  "meaning": "to think of or create",
+  "example": "He came up with a brilliant solution to the problem."
+},
+{
+  "english": "cut out",
+  "meaning": "to remove or exclude",
+  "example": "She cut out all junk food from her diet."
+},
+{
+  "english": "give off",
+  "meaning": "to emit or release",
+  "example": "The flowers gave off a lovely fragrance."
+},
+{
+  "english": "go along with",
+  "meaning": "to agree or cooperate",
+  "example": "He decided to go along with the majority opinion."
+},
+{
+  "english": "hold on",
+  "meaning": "to wait or cling",
+  "example": "Hold on a moment while I find your file."
+},
+{
+  "english": "look into",
+  "meaning": "to investigate or examine",
+  "example": "We need to look into the details of the contract."
+},
+{
+  "english": "make up",
+  "meaning": "to invent or reconcile",
+  "example": "She made up an excuse for being late. They made up after their argument."
+},
+{
+  "english": "pick up",
+  "meaning": "to collect or improve",
+  "example": "She picked up the package from the post office. Business started to pick up after the new advertising campaign."
+},
+{
+  "english": "put up",
+  "meaning": "to tolerate or provide accommodation",
+  "example": "He put up with the noise from the construction site. They put up guests in a spare room."
+},
+{
+  "english": "run across",
+  "meaning": "to encounter unexpectedly",
+  "example": "I ran across an old friend at the conference."
+},
+{
+  "english": "set aside",
+  "meaning": "to reserve or save",
+  "example": "She set aside some time for relaxation each week."
+},
+{
+  "english": "take over",
+  "meaning": "to assume control",
+  "example": "She took over the project after the manager left."
+},
+{
+  "english": "turn down",
+  "meaning": "to refuse or lower",
+  "example": "He turned down the job offer. The volume was turned down."
+},
+{
+  "english": "work out",
+  "meaning": "to exercise or solve",
+  "example": "She works out at the gym every morning. We need to work out the details of the project."
+},
+{
+  "english": "back up",
+  "meaning": "to support or make a copy",
+  "example": "She backed up her data regularly. His research backed up her findings."
+},
+{
+  "english": "break down",
+  "meaning": "to analyze or stop functioning",
+  "example": "We need to break down the problem into smaller parts. The car broke down on the highway."
+},
+{
+  "english": "come up with",
+  "meaning": "to create or think of",
+  "example": "He came up with a new idea for the project."
+},
+{
+  "english": "cut back",
+  "meaning": "to reduce",
+  "example": "They decided to cut back on unnecessary expenses."
+},
+{
+  "english": "find out",
+  "meaning": "to discover or learn",
+  "example": "I need to find out more about the new procedure."
+},
+{
+  "english": "give in",
+  "meaning": "to surrender or yield",
+  "example": "After a long debate, he gave in to their demands."
+},
+{
+  "english": "go through",
+  "meaning": "to experience or examine",
+  "example": "She had to go through a lot of paperwork for the application."
+},
+{
+  "english": "keep up",
+  "meaning": "to maintain or continue",
+  "example": "He struggles to keep up with the latest trends."
+},
+{
+  "english": "let down",
+  "meaning": "to disappoint",
+  "example": "He felt let down by his friend's lack of support."
+},
+{
+  "english": "make out",
+  "meaning": "to discern or understand",
+  "example": "I can’t make out what’s written on the document."
+},
+{
+  "english": "pass on",
+  "meaning": "to transmit or decline",
+  "example": "She passed on the message to her colleagues. He decided to pass on the offer."
+},
+{
+  "english": "put off",
+  "meaning": "to delay or postpone",
+  "example": "The meeting was put off until next week."
+},
+{
+  "english": "run out of",
+  "meaning": "to deplete or exhaust",
+  "example": "We’ve run out of milk."
+},
+{
+  "english": "set up",
+  "meaning": "to establish or arrange",
+  "example": "They set up a new office in the city."
+},
+{
+  "english": "take after",
+  "meaning": "to resemble or inherit traits",
+  "example": "She takes after her mother in her love for music."
+},
+{
+  "english": "turn up",
+  "meaning": "to increase or arrive",
+  "example": "The music was turned up too loud. He turned up at the party unexpectedly."
+},
+{
+  "english": "work out",
+  "meaning": "to exercise or solve",
+  "example": "He works out at the gym daily. We need to work out the details of the contract."
+},
+{
+  "english": "back out",
+  "meaning": "to withdraw or retreat",
+  "example": "He decided to back out of the deal."
+},
+{
+  "english": "bring around",
+  "meaning": "to persuade or influence",
+  "example": "She managed to bring him around to her point of view."
+},
+{
+  "english": "come across",
+  "meaning": "to find unexpectedly",
+  "example": "I came across an interesting article online."
+},
+{
+  "english": "cut down on",
+  "meaning": "to reduce",
+  "example": "He needs to cut down on his caffeine intake."
+},
+{
+  "english": "deal with",
+  "meaning": "to handle or manage",
+  "example": "We need to deal with this issue before the deadline."
+},
+{
+  "english": "give in",
+  "meaning": "to surrender or yield",
+  "example": "She gave in to the temptation to eat the cake."
+},
+{
+  "english": "go through",
+  "meaning": "to experience or examine",
+  "example": "She went through a difficult period in her life."
+},
+{
+  "english": "keep away",
+  "meaning": "to stay distant",
+  "example": "Keep away from the construction area."
+},
+{
+  "english": "let down",
+  "meaning": "to disappoint",
+  "example": "He felt let down by his friend's behavior."
+},
+{
+  "english": "make out",
+  "meaning": "to discern or understand",
+  "example": "I couldn’t make out the details from the blurry picture."
+},
+{
+  "english": "pass away",
+  "meaning": "to die",
+  "example": "Her grandmother passed away last year."
+},
+{
+  "english": "put up with",
+  "meaning": "to tolerate",
+  "example": "He put up with the noisy neighbors for months."
+},
+{
+  "english": "run out of",
+  "meaning": "to deplete",
+  "example": "They ran out of paper towels."
+},
+{
+  "english": "set up",
+  "meaning": "to arrange or establish",
+  "example": "They set up a new business in town."
+},
+{
+  "english": "take after",
+  "meaning": "to resemble",
+  "example": "She takes after her father in her talent for music."
+},
+{
+  "english": "turn up",
+  "meaning": "to increase or appear",
+  "example": "Turn up the heat; it's cold in here. He turned up at the meeting early."
+},
+{
+  "english": "abundant",
+  "ukrainian": "великі кількості",
+  "example": "The region has abundant natural resources."
+},
+{
+  "english": "accommodate",
+  "ukrainian": "вміщувати",
+  "example": "The hotel can accommodate up to 300 guests."
+},
+{
+  "english": "acknowledge",
+  "ukrainian": "визнати",
+  "example": "He acknowledged the mistakes in his report."
+},
+{
+  "english": "adapt",
+  "ukrainian": "адаптувати",
+  "example": "The company must adapt to changing market conditions."
+},
+{
+  "english": "advocate",
+  "ukrainian": "захищати",
+  "example": "She advocates for environmental protection."
+},
+{
+  "english": "aggregate",
+  "ukrainian": "агрегат",
+  "example": "The data was aggregated from several sources."
+},
+{
+  "english": "allocate",
+  "ukrainian": "виділити",
+  "example": "Funds were allocated for the new project."
+},
+{
+  "english": "analyze",
+  "ukrainian": "аналізувати",
+  "example": "We need to analyze the results of the survey."
+},
+{
+  "english": "anticipate",
+  "ukrainian": "очікувати",
+  "example": "We anticipate a rise in sales next quarter."
+},
+{
+  "english": "appreciate",
+  "ukrainian": "цінувати",
+  "example": "I appreciate your help with the project."
+},
+{
+  "english": "approach",
+  "ukrainian": "підхід",
+  "example": "We need a new approach to solving this problem."
+},
+{
+  "english": "assess",
+  "ukrainian": "оцінити",
+  "example": "The team will assess the impact of the new policy."
+},
+{
+  "english": "attract",
+  "ukrainian": "приваблювати",
+  "example": "The new marketing strategy aims to attract more customers."
+},
+{
+  "english": "authorize",
+  "ukrainian": "уповноважити",
+  "example": "The manager authorized the purchase of new equipment."
+},
+{
+  "english": "beneficial",
+  "ukrainian": "корисний",
+  "example": "The new policy will be beneficial to employees."
+},
+{
+  "english": "bias",
+  "ukrainian": "упередженість",
+  "example": "There was a bias in the survey results."
+},
+{
+  "english": "challenge",
+  "ukrainian": "виклик",
+  "example": "The team faced several challenges during the project."
+},
+{
+  "english": "coherent",
+  "ukrainian": "зрозумілий",
+  "example": "The presentation was clear and coherent."
+},
+{
+  "english": "collaborate",
+  "ukrainian": "співпрацювати",
+  "example": "The two companies decided to collaborate on the new initiative."
+},
+{
+  "english": "compile",
+  "ukrainian": "збирати",
+  "example": "She compiled a list of potential candidates."
+},
+{
+  "english": "comprehensive",
+  "ukrainian": "всебічний",
+  "example": "The report provides a comprehensive overview of the situation."
+},
+{
+  "english": "confidential",
+  "ukrainian": "конфіденційний",
+  "example": "The document contains confidential information."
+},
+{
+  "english": "contribute",
+  "ukrainian": "внести",
+  "example": "Everyone is expected to contribute to the discussion."
+},
+{
+  "english": "criteria",
+  "ukrainian": "критерії",
+  "example": "The selection criteria were clearly defined."
+},
+{
+  "english": "diminish",
+  "ukrainian": "зменшуватися",
+  "example": "The company’s profits began to diminish last year."
+},
+{
+  "english": "elaborate",
+  "ukrainian": "розробити",
+  "example": "Can you elaborate on your proposal?"
+},
+{
+  "english": "evaluate",
+  "ukrainian": "оцінити",
+  "example": "We need to evaluate the effectiveness of the new system."
+},
+{
+  "english": "evidence",
+  "ukrainian": "доказ",
+  "example": "The evidence presented was convincing."
+},
+{
+  "english": "examine",
+  "ukrainian": "дослідити",
+  "example": "The scientist will examine the samples under a microscope."
+},
+{
+  "english": "facilitate",
+  "ukrainian": "спростити",
+  "example": "The new software will facilitate the workflow."
+},
+{
+  "english": "forecast",
+  "ukrainian": "прогноз",
+  "example": "The weather forecast predicts rain for the weekend."
+},
+{
+  "english": "generate",
+  "ukrainian": "генерувати",
+  "example": "The company aims to generate new leads through marketing."
+},
+{
+  "english": "impact",
+  "ukrainian": "вплив",
+  "example": "The new policy had a significant impact on the company."
+},
+{
+  "english": "implement",
+  "ukrainian": "реалізувати",
+  "example": "The new strategy will be implemented next month."
+},
+{
+  "english": "indicate",
+  "ukrainian": "вказувати",
+  "example": "The data indicates a trend towards higher sales."
+},
+{
+  "english": "influence",
+  "ukrainian": "вплив",
+  "example": "Her opinion had a strong influence on the decision."
+},
+{
+  "english": "innovate",
+  "ukrainian": "інновувати",
+  "example": "The company is known for its ability to innovate."
+},
+{
+  "english": "inspire",
+  "ukrainian": "надихати",
+  "example": "Her speech inspired everyone in the room."
+},
+{
+  "english": "intermediate",
+  "ukrainian": "середній",
+  "example": "He has an intermediate level of proficiency in French."
+},
+{
+  "english": "investigate",
+  "ukrainian": "розслідувати",
+  "example": "The police are investigating the case."
+},
+{
+  "english": "maintain",
+  "ukrainian": "підтримувати",
+  "example": "The company strives to maintain high standards."
+},
+{
+  "english": "methodology",
+  "ukrainian": "методологія",
+  "example": "The research methodology was clearly outlined."
+},
+{
+  "english": "monitor",
+  "ukrainian": "моніторити",
+  "example": "The team will monitor the progress of the project."
+},
+{
+  "english": "negotiate",
+  "ukrainian": "переговори",
+  "example": "They need to negotiate the terms of the contract."
+},
+{
+  "english": "objective",
+  "ukrainian": "мета",
+  "example": "The objective of the project is to increase efficiency."
+},
+{
+  "english": "obtain",
+  "ukrainian": "отримати",
+  "example": "You need to obtain permission before starting the work."
+},
+{
+  "english": "option",
+  "ukrainian": "варіант",
+  "example": "We have several options to choose from."
+},
+{
+  "english": "organize",
+  "ukrainian": "організувати",
+  "example": "They will organize the conference next month."
+},
+{
+  "english": "outline",
+  "ukrainian": "контур",
+  "example": "She provided an outline of the presentation."
+},
+{
+  "english": "perform",
+  "ukrainian": "виконати",
+  "example": "The team performed well under pressure."
+},
+{
+  "english": "persuade",
+  "ukrainian": "переконати",
+  "example": "He was able to persuade them to agree with his plan."
+},
+{
+  "english": "proceed",
+  "ukrainian": "продовжити",
+  "example": "We can proceed with the project as planned."
+},
+{
+  "english": "provide",
+  "ukrainian": "забезпечити",
+  "example": "The company will provide the necessary resources."
+},
+{
+  "english": "publish",
+  "ukrainian": "опублікувати",
+  "example": "They decided to publish the results of the study."
+},
+{
+  "english": "recruit",
+  "ukrainian": "наймати",
+  "example": "The company is looking to recruit new talent."
+},
+{
+  "english": "refine",
+  "ukrainian": "удосконалювати",
+  "example": "We need to refine our marketing strategy."
+},
+{
+  "english": "relevant",
+  "ukrainian": "відповідний",
+  "example": "The information is highly relevant to our discussion."
+},
+{
+  "english": "resolve",
+  "ukrainian": "вирішити",
+  "example": "We need to resolve the issue before it escalates."
+},
+{
+  "english": "restrict",
+  "ukrainian": "обмежити",
+  "example": "Access to the site is restricted to authorized personnel."
+},
+{
+  "english": "sufficient",
+  "ukrainian": "достатній",
+  "example": "The funds are sufficient to complete the project."
+},
+{
+  "english": "theory",
+  "ukrainian": "теорія",
+  "example": "His theory challenged existing scientific beliefs."
+},
+{
+  "english": "trivial",
+  "ukrainian": "тривіальний",
+  "example": "The problem was deemed trivial and not worth addressing."
+},
+{
+  "english": "unique",
+  "ukrainian": "унікальний",
+  "example": "The design of the building is unique and innovative."
+},
+{
+  "english": "validate",
+  "ukrainian": "перевірити",
+  "example": "The data needs to be validated before analysis."
+},
+{
+  "english": "vulnerable",
+  "ukrainian": "вразливий",
+  "example": "The system is vulnerable to cyber attacks."
+},
+{
+  "english": "widespread",
+  "ukrainian": "широко розповсюджений",
+  "example": "The issue of pollution is widespread in urban areas."
+},
+{
+  "english": "accomplish",
+  "ukrainian": "здійснити",
+  "example": "She managed to accomplish all her goals for the year."
+},
+{
+  "english": "assert",
+  "ukrainian": "стверджувати",
+  "example": "He asserted his right to speak in the meeting."
+},
+{
+  "english": "complex",
+  "ukrainian": "складний",
+  "example": "The project is more complex than initially thought."
+},
+{
+  "english": "conceive",
+  "ukrainian": "задумати",
+  "example": "The architect conceived a revolutionary design for the building."
+},
+{
+  "english": "conclude",
+  "ukrainian": "зробити висновок",
+  "example": "We can conclude the meeting with a summary of the decisions."
+},
+{
+  "english": "contribute",
+  "ukrainian": "внести",
+  "example": "Each member of the team contributed their expertise."
+},
+{
+  "english": "criteria",
+  "ukrainian": "критерії",
+  "example": "The criteria for selection were clearly defined."
+},
+{
+  "english": "differ",
+  "ukrainian": "відрізнятися",
+  "example": "Their opinions differ on the matter."
+},
+{
+  "english": "distribute",
+  "ukrainian": "розподілити",
+  "example": "We need to distribute the resources equally."
+},
+{
+  "english": "emphasize",
+  "ukrainian": "підкреслити",
+  "example": "The speaker emphasized the importance of teamwork."
+},
+{
+  "english": "evaluate",
+  "ukrainian": "оцінити",
+  "example": "We need to evaluate the performance of the new system."
+},
+{
+  "english": "exceed",
+  "ukrainian": "перевищити",
+  "example": "The sales exceeded our expectations for the quarter."
+},
+{
+  "english": "facilitate",
+  "ukrainian": "спростити",
+  "example": "The new software will facilitate our workflow."
+},
+{
+  "english": "formal",
+  "ukrainian": "офіційний",
+  "example": "The report must be submitted in a formal format."
+},
+{
+  "english": "generate",
+  "ukrainian": "генерувати",
+  "example": "The company aims to generate more leads this year."
+},
+{
+  "english": "illustrate",
+  "ukrainian": "ілюструвати",
+  "example": "The diagram illustrates the process clearly."
+},
+{
+  "english": "involve",
+  "ukrainian": "включати",
+  "example": "The project involves several different departments."
+},
+{
+  "english": "justify",
+  "ukrainian": "виправдати",
+  "example": "You need to justify your decision with evidence."
+},
+{
+  "english": "manipulate",
+  "ukrainian": "маніпулювати",
+  "example": "He was able to manipulate the data to fit his argument."
+},
+{
+  "english": "negotiate",
+  "ukrainian": "переговори",
+  "example": "The terms of the contract were negotiated carefully."
+},
+{
+  "english": "obtain",
+  "ukrainian": "отримати",
+  "example": "You need to obtain permission before using the equipment."
+},
+{
+  "english": "overcome",
+  "ukrainian": "перемогти",
+  "example": "She managed to overcome all obstacles in her way."
+},
+{
+  "english": "participate",
+  "ukrainian": "брати участь",
+  "example": "All employees are encouraged to participate in the training."
+},
+{
+  "english": "predict",
+  "ukrainian": "передбачити",
+  "example": "It’s difficult to predict the outcome of the project."
+},
+{
+  "english": "reinforce",
+  "ukrainian": "підкріпити",
+  "example": "The teacher reinforced the lesson with additional examples."
+},
+{
+  "english": "relevant",
+  "ukrainian": "відповідний",
+  "example": "Please provide relevant information for the report."
+},
+{
+  "english": "resolve",
+  "ukrainian": "вирішити",
+  "example": "They need to resolve the issues before the deadline."
+},
+{
+  "english": "review",
+  "ukrainian": "перегляд",
+  "example": "We will review the document before making a decision."
+},
+{
+  "english": "specify",
+  "ukrainian": "вказати",
+  "example": "Please specify the details of your request."
+},
+{
+  "english": "sustain",
+  "ukrainian": "підтримувати",
+  "example": "The project aims to sustain environmental balance."
+},
+{
+  "english": "theory",
+  "ukrainian": "теорія",
+  "example": "The theory was tested and validated by the researchers."
+},
+{
+  "english": "transform",
+  "ukrainian": "трансформувати",
+  "example": "The company plans to transform its business model."
+},
+{
+  "english": "validate",
+  "ukrainian": "перевірити",
+  "example": "The results must be validated through additional experiments."
+},
+{
+  "english": "utilize",
+  "ukrainian": "використовувати",
+  "example": "We need to utilize our resources more efficiently."
+},
+{
+  "english": "warrant",
+  "ukrainian": "гарантувати",
+  "example": "The agreement warrants full compliance with the terms."
+},
+{
+  "english": "withstand",
+  "ukrainian": "витримати",
+  "example": "The building is designed to withstand extreme weather conditions."
+},
+{
+  "english": "yield",
+  "ukrainian": "давати",
+  "example": "The investment is expected to yield significant returns."
+},
+{
+  "english": "zealous",
+  "ukrainian": "палкий",
+  "example": "She is a zealous advocate for animal rights."
+},
+{
+  "english": "abide",
+  "ukrainian": "дотримуватися",
+  "example": "You must abide by the terms of the agreement."
+},
+{
+  "english": "comprehend",
+  "ukrainian": "зрозуміти",
+  "example": "He struggled to comprehend the complex instructions."
+},
+{
+  "english": "contextualize",
+  "ukrainian": "контекстуалізувати",
+  "example": "It is important to contextualize historical events."
+},
+{
+  "english": "detrimental",
+  "ukrainian": "шкідливий",
+  "example": "The new policy could be detrimental to employee morale."
+},
+{
+  "english": "discrepancy",
+  "ukrainian": "невідповідність",
+  "example": "There is a discrepancy between the two reports."
+},
+{
+  "english": "encompass",
+  "ukrainian": "охоплювати",
+  "example": "The study encompasses a range of subjects."
+},
+{
+  "english": "enhance",
+  "ukrainian": "покращити",
+  "example": "We need to enhance the quality of our products."
+},
+{
+  "english": "examine",
+  "ukrainian": "дослідити",
+  "example": "The team will examine the evidence thoroughly."
+},
+{
+  "english": "exhibit",
+  "ukrainian": "виставка",
+  "example": "The museum will exhibit ancient artifacts."
+},
+{
+  "english": "expedite",
+  "ukrainian": "прискорити",
+  "example": "We need to expedite the approval process."
+},
+{
+  "english": "exposure",
+  "ukrainian": "вплив",
+  "example": "The exposure to new ideas can be beneficial."
+},
+{
+  "english": "facilitate",
+  "ukrainian": "спростити",
+  "example": "The software will facilitate better communication."
+},
+{
+  "english": "fluctuate",
+  "ukrainian": "коливатися",
+  "example": "The temperature can fluctuate significantly during the day."
+},
+{
+  "english": "formulate",
+  "ukrainian": "сформулювати",
+  "example": "We need to formulate a new strategy for the project."
+},
+{
+  "english": "generate",
+  "ukrainian": "генерувати",
+  "example": "The new system will generate more accurate reports."
+},
+{
+  "english": "hypothesis",
+  "ukrainian": "гіпотеза",
+  "example": "The researcher proposed a hypothesis for the experiment."
+},
+{
+  "english": "impact",
+  "ukrainian": "вплив",
+  "example": "The new law will have a significant impact on the industry."
+},
+{
+  "english": "implement",
+  "ukrainian": "реалізувати",
+  "example": "The company will implement the changes next quarter."
+},
+{
+  "english": "incorporate",
+  "ukrainian": "включити",
+  "example": "We need to incorporate feedback into the design."
+},
+{
+  "english": "inference",
+  "ukrainian": "висновок",
+  "example": "The inference drawn from the data was significant."
+},
+{
+  "english": "innovate",
+  "ukrainian": "інновувати",
+  "example": "The company is known for its ability to innovate."
+},
+{
+  "english": "integrate",
+  "ukrainian": "інтегрувати",
+  "example": "We need to integrate new technologies into our system."
+},
+{
+  "english": "intervene",
+  "ukrainian": "втручатися",
+  "example": "The government had to intervene to resolve the crisis."
+},
+{
+  "english": "legitimate",
+  "ukrainian": "законний",
+  "example": "He provided legitimate reasons for his absence."
+},
+{
+  "english": "modify",
+  "ukrainian": "модифікувати",
+  "example": "We need to modify the design to fit the new requirements."
+},
+{
+  "english": "negotiate",
+  "ukrainian": "переговори",
+  "example": "The team needs to negotiate the terms of the agreement."
+},
+{
+  "english": "obstruct",
+  "ukrainian": "перешкоджати",
+  "example": "The construction work might obstruct traffic flow."
+},
+{
+  "english": "optimize",
+  "ukrainian": "оптимізувати",
+  "example": "We need to optimize the performance of our website."
+},
+{
+  "english": "parameter",
+  "ukrainian": "параметр",
+  "example": "The system allows you to adjust various parameters."
+},
+{
+  "english": "perspective",
+  "ukrainian": "перспектива",
+  "example": "His perspective on the issue was very insightful."
+},
+{
+  "english": "prohibit",
+  "ukrainian": "заборонити",
+  "example": "The policy prohibits the use of personal devices at work."
+},
+{
+  "english": "promote",
+  "ukrainian": "просувати",
+  "example": "The company will promote the new product next month."
+},
+{
+  "english": "reconcile",
+  "ukrainian": "помирити",
+  "example": "The two parties need to reconcile their differences."
+},
+{
+  "english": "relevant",
+  "ukrainian": "відповідний",
+  "example": "The data provided was highly relevant to the study."
+},
+{
+  "english": "restrict",
+  "ukrainian": "обмежити",
+  "example": "Access to the facility is restricted to authorized personnel."
+},
+{
+  "english": "retain",
+  "ukrainian": "утримувати",
+  "example": "The company aims to retain its best employees."
+},
+{
+  "english": "simulate",
+  "ukrainian": "симулювати",
+  "example": "We will simulate different scenarios to test the system."
+},
+{
+  "english": "sophisticated",
+  "ukrainian": "вишуканий",
+  "example": "The new software is highly sophisticated and user-friendly."
+},
+{
+  "english": "sustain",
+  "ukrainian": "підтримувати",
+  "example": "The project is designed to sustain long-term growth."
+},
+{
+  "english": "theoretical",
+  "ukrainian": "теоретичний",
+  "example": "The theoretical framework underpins the research study."
+},
+{
+  "english": "unprecedented",
+  "ukrainian": "беспрецедентний",
+  "example": "The new policy represents an unprecedented change in the industry."
+},
+{
+  "english": "utilize",
+  "ukrainian": "використовувати",
+  "example": "The team needs to utilize all available resources."
+},
+{
+  "english": "validate",
+  "ukrainian": "перевірити",
+  "example": "The results of the experiment need to be validated."
+},
+{
+  "english": "variable",
+  "ukrainian": "змінний",
+  "example": "The study looked at various variables affecting the outcome."
+},
+{
+  "english": "warrant",
+  "ukrainian": "гарантувати",
+  "example": "The agreement warrants compliance with all terms."
+},
+{
+  "english": "withdraw",
+  "ukrainian": "відкликати",
+  "example": "He decided to withdraw from the competition."
+},
+{
+  "english": "acquire",
+  "ukrainian": "отримати",
+  "example": "The company acquired new technology to improve operations."
+},
+{
+  "english": "advocate",
+  "ukrainian": "захищати",
+  "example": "She advocates for renewable energy sources."
+},
+{
+  "english": "analyze",
+  "ukrainian": "аналізувати",
+  "example": "We need to analyze the data before drawing conclusions."
+},
+{
+  "english": "appraise",
+  "ukrainian": "оцінити",
+  "example": "The expert appraised the value of the artwork."
+},
+{
+  "english": "collaborate",
+  "ukrainian": "співпрацювати",
+  "example": "The teams will collaborate on the new research project."
+},
+{
+  "english": "consolidate",
+  "ukrainian": "укріпити",
+  "example": "The company plans to consolidate its market position."
+},
+{
+  "english": "deviate",
+  "ukrainian": "відхилятися",
+  "example": "The results deviate from the expected outcome."
+},
+{
+  "english": "differentiate",
+  "ukrainian": "відрізняти",
+  "example": "We need to differentiate our product from competitors."
+},
+{
+  "english": "disseminate",
+  "ukrainian": "поширювати",
+  "example": "The organization aims to disseminate information about health."
+},
+{
+  "english": "distinguish",
+  "ukrainian": "відрізняти",
+  "example": "It is important to distinguish between fact and opinion."
+},
+{
+  "english": "endorse",
+  "ukrainian": "підтримати",
+  "example": "The celebrity endorsed the new product line."
+},
+{
+  "english": "evaluate",
+  "ukrainian": "оцінити",
+  "example": "We need to evaluate the success of the marketing campaign."
+},
+{
+  "english": "exaggerate",
+  "ukrainian": "перебільшити",
+  "example": "He tends to exaggerate his achievements."
+},
+{
+  "english": "fabricate",
+  "ukrainian": "виготовити",
+  "example": "The company was accused of fabricating test results."
+},
+{
+  "english": "formulate",
+  "ukrainian": "сформулювати",
+  "example": "The team worked to formulate a new business strategy."
+},
+{
+  "english": "implicate",
+  "ukrainian": "заплутати",
+  "example": "The evidence may implicate several key figures."
+},
+{
+  "english": "indicate",
+  "ukrainian": "вказати",
+  "example": "The data indicates a trend towards increased usage."
+},
+{
+  "english": "interpret",
+  "ukrainian": "інтерпретувати",
+  "example": "The analyst will interpret the survey results."
+},
+{
+  "english": "manipulate",
+  "ukrainian": "маніпулювати",
+  "example": "He manipulated the data to support his argument."
+},
+{
+  "english": "prioritize",
+  "ukrainian": "пріоритетизувати",
+  "example": "We need to prioritize our tasks for the project."
+},
+{
+  "english": "project",
+  "ukrainian": "проект",
+  "example": "The project will span over the next two years."
+},
+{
+  "english": "reconcile",
+  "ukrainian": "помирити",
+  "example": "They need to reconcile their differences before moving forward."
+},
+{
+  "english": "reinforce",
+  "ukrainian": "підкріпити",
+  "example": "The campaign will reinforce the brand's image."
+},
+{
+  "english": "relevant",
+  "ukrainian": "відповідний",
+  "example": "The information is relevant to the current discussion."
+},
+{
+  "english": "restrict",
+  "ukrainian": "обмежити",
+  "example": "Access to the document is restricted to authorized personnel."
+},
+{
+  "english": "simulate",
+  "ukrainian": "симулювати",
+  "example": "We need to simulate different scenarios for the test."
+},
+{
+  "english": "speculate",
+  "ukrainian": "спекулювати",
+  "example": "It's hard to speculate on the future of the industry."
+},
+{
+  "english": "strategize",
+  "ukrainian": "стратегію",
+  "example": "The team will strategize to improve their market position."
+},
+{
+  "english": "substantiate",
+  "ukrainian": "підтвердити",
+  "example": "You need to substantiate your claims with evidence."
+},
+{
+  "english": "transcend",
+  "ukrainian": "перевищити",
+  "example": "The novel transcends the boundaries of traditional literature."
+},
+{
+  "english": "articulate",
+  "ukrainian": "артикуляційний",
+  "example": "She was able to articulate her ideas clearly."
+},
+{
+  "english": "beneficial",
+  "ukrainian": "корисний",
+  "example": "The new policy will be beneficial to employees."
+},
+{
+  "english": "coherent",
+  "ukrainian": "зрозумілий",
+  "example": "The presentation was clear and coherent."
+},
+{
+  "english": "diminish",
+  "ukrainian": "зменшити",
+  "example": "The impact of the decision will diminish over time."
+},
+{
+  "english": "discrepancy",
+  "ukrainian": "невідповідність",
+  "example": "There was a discrepancy between the two reports."
+},
+{
+  "english": "emerge",
+  "ukrainian": "з'явитися",
+  "example": "A new leader emerged from the elections."
+},
+{
+  "english": "facilitate",
+  "ukrainian": "спростити",
+  "example": "The new software will facilitate data processing."
+},
+{
+  "english": "implement",
+  "ukrainian": "реалізувати",
+  "example": "We need to implement the changes by next month."
+},
+{
+  "english": "incorporate",
+  "ukrainian": "включити",
+  "example": "The new system will incorporate advanced features."
+},
+{
+  "english": "innovative",
+  "ukrainian": "інноваційний",
+  "example": "The company is known for its innovative solutions."
+},
+{
+  "english": "integrate",
+  "ukrainian": "інтегрувати",
+  "example": "We need to integrate new technologies into our system."
+},
+{
+  "english": "mediate",
+  "ukrainian": "посередництво",
+  "example": "A neutral party was needed to mediate the conflict."
+},
+{
+  "english": "negotiate",
+  "ukrainian": "переговори",
+  "example": "The terms of the agreement were negotiated thoroughly."
+},
+{
+  "english": "optimize",
+  "ukrainian": "оптимізувати",
+  "example": "We need to optimize our workflow for better efficiency."
+},
+{
+  "english": "perceive",
+  "ukrainian": "сприймати",
+  "example": "How people perceive the brand affects its success."
+},
+{
+  "english": "reform",
+  "ukrainian": "реформа",
+  "example": "The government proposed a series of reforms."
+},
+{
+  "english": "retain",
+  "ukrainian": "утримувати",
+  "example": "The company aims to retain top talent."
+},
+{
+  "english": "synthesize",
+  "ukrainian": "синтезувати",
+  "example": "We need to synthesize information from various sources."
+},
+{
+  "english": "theorize",
+  "ukrainian": "теоретизувати",
+  "example": "Scientists theorize about the origins of the universe."
+},
+{
+  "english": "utilize",
+  "ukrainian": "використовувати",
+  "example": "We can utilize the new tools to enhance productivity."
+},
+{
+  "english": "validate",
+  "ukrainian": "перевірити",
+  "example": "The results need to be validated before publication."
+},
+{
+  "english": "achieve",
+  "ukrainian": "досягти",
+  "example": "The team was able to achieve its goals."
+},
+{
+  "english": "address",
+  "ukrainian": "звернутися",
+  "example": "We need to address the concerns raised by customers."
+},
+{
+  "english": "allocate",
+  "ukrainian": "виділити",
+  "example": "We should allocate resources more efficiently."
+},
+{
+  "english": "compile",
+  "ukrainian": "скласти",
+  "example": "We need to compile all the data into a report."
+},
+{
+  "english": "correlate",
+  "ukrainian": "корелювати",
+  "example": "The study aims to correlate exercise with health benefits."
+},
+{
+  "english": "demonstrate",
+  "ukrainian": "демонструвати",
+  "example": "The scientist will demonstrate the new experiment."
+},
+{
+  "english": "differentiate",
+  "ukrainian": "відрізняти",
+  "example": "It's important to differentiate between the two methods."
+},
+{
+  "english": "elucidate",
+  "ukrainian": "роз'яснити",
+  "example": "The professor will elucidate the complex theory."
+},
+{
+  "english": "examine",
+  "ukrainian": "дослідити",
+  "example": "We need to examine the potential risks involved."
+},
+{
+  "english": "facilitate",
+  "ukrainian": "спростити",
+  "example": "The training session will facilitate employee development."
+},
+{
+  "english": "interact",
+  "ukrainian": "взаємодіяти",
+  "example": "The software allows users to interact with various features."
+},
+{
+  "english": "juxtapose",
+  "ukrainian": "порівняти",
+  "example": "The artist juxtaposed contrasting colors to create visual interest."
+},
+{
+  "english": "maintain",
+  "ukrainian": "підтримувати",
+  "example": "We need to maintain high standards of quality."
+},
+{
+  "english": "mediate",
+  "ukrainian": "посередник",
+  "example": "The mediator will help to mediate the negotiations."
+},
+{
+  "english": "negotiate",
+  "ukrainian": "переговори",
+  "example": "The two parties will negotiate a new contract."
+},
+{
+  "english": "optimize",
+  "ukrainian": "оптимізувати",
+  "example": "We need to optimize our supply chain for better efficiency."
+},
+{
+  "english": "prioritize",
+  "ukrainian": "пріоритетизувати",
+  "example": "We must prioritize the most critical tasks."
+},
+{
+  "english": "reconcile",
+  "ukrainian": "помирити",
+  "example": "The two sides reached a reconciliation after the conflict."
+},
+{
+  "english": "refine",
+  "ukrainian": "удосконалити",
+  "example": "The team will refine the prototype based on feedback."
+},
+{
+  "english": "regulate",
+  "ukrainian": "регулювати",
+  "example": "The government will regulate the new industry standards."
+},
+{
+  "english": "relevant",
+  "ukrainian": "відповідний",
+  "example": "The data provided is highly relevant to the research."
+},
+{
+  "english": "substantiate",
+  "ukrainian": "підтвердити",
+  "example": "You need to substantiate your arguments with evidence."
+},
+{
+  "english": "synthesize",
+  "ukrainian": "синтезувати",
+  "example": "The report synthesizes information from various sources."
+},
+{
+  "english": "theorize",
+  "ukrainian": "теоретизувати",
+  "example": "Scientists theorize about the nature of dark matter."
+},
+{
+  "english": "validate",
+  "ukrainian": "перевірити",
+  "example": "The results of the test need to be validated before publication."
+},
+{
+  "english": "warrant",
+  "ukrainian": "гарантувати",
+  "example": "The new policy warrants a thorough review."
+},
+{
+  "english": "accommodate",
+  "ukrainian": "забезпечити",
+  "example": "The hotel can accommodate up to 200 guests."
+},
+{
+  "english": "analyze",
+  "ukrainian": "аналізувати",
+  "example": "We need to analyze the market trends before making a decision."
+},
+{
+  "english": "approach",
+  "ukrainian": "підхід",
+  "example": "The team adopted a new approach to solving the problem."
+},
+{
+  "english": "assess",
+  "ukrainian": "оцінити",
+  "example": "We need to assess the potential risks before proceeding."
+},
+{
+  "english": "construct",
+  "ukrainian": "будувати",
+  "example": "The company plans to construct a new office building."
+},
+{
+  "english": "contextualize",
+  "ukrainian": "контекстуалізувати",
+  "example": "It's important to contextualize the data for better understanding."
+},
+{
+  "english": "differentiate",
+  "ukrainian": "відрізняти",
+  "example": "We need to differentiate our product from competitors."
+},
+{
+  "english": "discriminate",
+  "ukrainian": "дискримінувати",
+  "example": "We must ensure that our policies do not discriminate against any group."
+},
+{
+  "english": "enhance",
+  "ukrainian": "покращити",
+  "example": "The upgrade will enhance the system's performance."
+},
+{
+  "english": "explain",
+  "ukrainian": "пояснити",
+  "example": "She will explain the new procedure in detail."
+},
+{
+  "english": "illustrate",
+  "ukrainian": "ілюструвати",
+  "example": "The examples help to illustrate the concept more clearly."
+},
+{
+  "english": "implement",
+  "ukrainian": "реалізувати",
+  "example": "The new policy will be implemented next month."
+},
+{
+  "english": "incorporate",
+  "ukrainian": "включити",
+  "example": "We plan to incorporate user feedback into the next version."
+},
+{
+  "english": "infer",
+  "ukrainian": "вивести",
+  "example": "We can infer the results from the available data."
+},
+{
+  "english": "interpret",
+  "ukrainian": "інтерпретувати",
+  "example": "It’s important to interpret the results accurately."
+},
+{
+  "english": "justify",
+  "ukrainian": "виправдати",
+  "example": "You need to justify your decision with clear reasons."
+},
+{
+  "english": "manipulate",
+  "ukrainian": "маніпулювати",
+  "example": "The data can be manipulated to show different results."
+},
+{
+  "english": "modify",
+  "ukrainian": "модифікувати",
+  "example": "The plan was modified to better suit the requirements."
+},
+{
+  "english": "organize",
+  "ukrainian": "організувати",
+  "example": "We need to organize the information in a more structured way."
+},
+{
+  "english": "perspective",
+  "ukrainian": "перспектива",
+  "example": "Her perspective on the issue was very insightful."
+},
+{
+  "english": "prioritize",
+  "ukrainian": "пріоритетизувати",
+  "example": "It’s essential to prioritize tasks based on their importance."
+},
+{
+  "english": "reconcile",
+  "ukrainian": "помирити",
+  "example": "They worked to reconcile their differences through dialogue."
+},
+{
+  "english": "reform",
+  "ukrainian": "реформа",
+  "example": "The new reforms are aimed at improving public services."
+},
+{
+  "english": "reinforce",
+  "ukrainian": "підкріпити",
+  "example": "The training program will reinforce the employees' skills."
+},
+{
+  "english": "resolve",
+  "ukrainian": "вирішити",
+  "example": "The team worked together to resolve the issue."
+},
+{
+  "english": "speculate",
+  "ukrainian": "спекулювати",
+  "example": "We can only speculate about the reasons behind the changes."
+},
+{
+  "english": "synthesize",
+  "ukrainian": "синтезувати",
+  "example": "We need to synthesize data from various sources for the report."
+},
+{
+  "english": "validate",
+  "ukrainian": "перевірити",
+  "example": "The results need to be validated by independent reviewers."
+},
+{
+  "english": "analyze",
+  "ukrainian": "аналізувати",
+  "example": "We will analyze the data to determine the trend."
+},
+{
+  "english": "collaborate",
+  "ukrainian": "співпрацювати",
+  "example": "The two companies will collaborate on a new project."
+},
+{
+  "english": "contrast",
+  "ukrainian": "контраст",
+  "example": "The artist used contrast to highlight different elements in the painting."
+},
+{
+  "english": "design",
+  "ukrainian": "дизайн",
+  "example": "The design of the new product was well-received."
+},
+{
+  "english": "evaluate",
+  "ukrainian": "оцінити",
+  "example": "We need to evaluate the effectiveness of the new procedure."
+},
+{
+  "english": "illustrate",
+  "ukrainian": "ілюструвати",
+  "example": "The diagrams will help illustrate the concept more clearly."
+},
+{
+  "english": "mediate",
+  "ukrainian": "посередник",
+  "example": "The mediator will help to resolve the conflict."
 }
+  ]
+}
+
