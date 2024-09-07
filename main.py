@@ -9,7 +9,7 @@ app = FastAPI(title="Vlad'sCards")
 
 @app.get("/")
 def home():
-    return {"instructions": "go to /words"}
+    return {"instructions": "go to /your-level_words"}
 
 
 @app.get("/a1_words")
